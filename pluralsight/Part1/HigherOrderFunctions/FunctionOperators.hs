@@ -26,4 +26,6 @@ mapWithLambdaExpression = map (\f -> f 3) [(+ 1), \x -> 2 * x + 3, (* 2)]
 
 mapWithOperator = map ($ 3) [(+ 1), \x -> 2 * x + 3, (* 2)]
 
+-- applies $ to list of values ,
+-- as in each pair e.g. (+1) $ 5 -> f $ g -> f (g (x)) -> apply (+1) function to 5 , which means increase value by 1 hence 6
 zipWith' = zipWith ($) [(+ 1), \x -> 2 * x + 3, (* 2)] [5, 6, 8]

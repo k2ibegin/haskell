@@ -1,0 +1,10 @@
+1. how to effectively use type classes with custom types
+
+- Create new Type Class instances
+e.g. my custom type is numeric or equality comparable
+
+- Derived Type classes
+
+- Creating Type classes (how num or other are implemented in standard library)
+
+- Subclasses
